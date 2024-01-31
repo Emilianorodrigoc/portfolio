@@ -1,0 +1,33 @@
+.encabezado {
+    padding: 1rem;
+    background-color: rgba(33, 33, 43, 80%);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconos {
+    color: white;
+    display: flex;
+    padding-right: 2rem;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+.iconos i:hover {
+    transform: scale(1.2);
+    color: rgb(230, 231, 172);
+}
+
+header i {
+    color: white;
+    scale: 1.8;
+    transition: 0.3s;
+}
+
+header img {
+    height: 70px;
+    border-radius: 50%;
+}

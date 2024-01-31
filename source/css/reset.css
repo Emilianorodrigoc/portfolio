@@ -1,0 +1,19 @@
+
+/*Reseteo*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/*Configuración del body*/
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 70px;
+    background-color: rgb(29, 29, 32);
+    width: 100%;
+    height: 100vh;
+}
